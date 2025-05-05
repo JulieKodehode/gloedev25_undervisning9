@@ -40,6 +40,43 @@ section {
   animation: slideFromRight 5s ease-in 1 forwards;
 }
 
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+
+.colorSwitch {
+  background-color: violet;
+
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+.colorSwitch:hover, .colorSwitch:active {
+  background-color: chartreuse;
+}
+
+.makeBigger {
+  scale: 1;
+
+  transition: 2s ease-in;
+}
+
+.makeBigger:hover, .makeBigger:active {
+  scale: 0.8;
+}
+
+.changeOpacity {
+  opacity: 1;
+
+  transition: 2s ease-out;
+}
+
+.changeOpacity:hover, .changeOpacity:active {
+  opacity: 0.5;
+}
+
 /* FOOTER */
 footer {
   display: flex;
